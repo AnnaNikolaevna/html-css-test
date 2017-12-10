@@ -1,0 +1,115 @@
+.pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  margin: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 9.75rem 0 8.25rem;
+  background-color: #ffffff;
+  font-family: SourceSansPro, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.pricing__article {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  padding-bottom: 3.125rem;
+  position: relative;
+  background-color: #f4f5f9;
+}
+
+.pricing__subtitle--hover:hover {
+  background-color: #e74c3c;
+}
+
+.pricing__title {
+  padding-bottom: 1.8125rem;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  font-size: 2.25rem;
+  color: #6a6a6a;
+}
+
+.pricing__text {
+  padding-bottom: 1.9375rem;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: #999999;
+  text-transform: none;
+}
+
+
+/* .pricing__text::after {
+  display: block;
+  content: "";
+  width: 41px;
+  height: 2px;
+  margin: 1.875rem 0; 
+  background-color: #888888;
+} */
+
+.pricing__subtitle {
+  padding: 3.125rem 8.3125rem 8.5625rem 8.3125rem;
+  font-size: 1.5rem;
+  background-color: #999999;
+  color: #fff;
+}
+
+.pricing__price {
+  padding: 3rem;
+  position: absolute;
+  top: 7.5rem;
+  left: 30%;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.sum {
+  font-size: 2.4375rem;
+  line-height: 1.3125;
+  color: #999999;
+}
+
+.sum--hover:hover {
+  color: #e74c3c;
+}
+
+.month {
+  font-size: 0.8125rem;
+  color: #999999;
+  text-transform: none;
+}
+
+.pricing__desc {
+  padding: 7.9375rem 0 3rem;
+  font-weight: normal;
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  line-height: 2.5rem;
+  text-transform: none;
+  color: #999999;
+}
+
+.pricing__btn {
+  padding: 1.1875rem 1.9375rem 1.125rem 1.9375rem;
+  background-color: #999999;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pricing__btn--hover:hover {
+  background-color: #e74c3c;
+}

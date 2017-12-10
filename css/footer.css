@@ -1,0 +1,43 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2.1875rem;
+  background-color: #000;
+   opacity: 0.8; 
+  }
+  
+  .footer__socials  {
+    -ms-flex-preferred-size: 18%;
+        flex-basis: 18%;
+  }
+  .socials {
+  margin-right: 1.25rem;
+  }
+  
+  .socials:last-child {
+    margin-right:0;
+    }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    fill: #999999;
+  }
+  
+  .icon:hover {
+    fill: #e74c3c;
+  }
+  
+  .footer__copirite {
+    -ms-flex-preferred-size: 12%;
+        flex-basis: 12%;
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    color: #999999;
+  }

@@ -1,0 +1,12 @@
+@import 'dist/base.css';
+@import 'dist/header.css';
+@import 'dist/home.css';
+@import 'dist/about.css'; 
+@import 'dist/portfolio.css';
+@import 'dist/pricing.css';
+@import 'dist/team.css';
+@import 'dist/blog.css';
+@import 'dist/contacts.css';
+@import 'dist/promo.css';
+@import 'dist/footer.css';
+

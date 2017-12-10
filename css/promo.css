@@ -1,0 +1,48 @@
+.promo {
+  width: 100%;
+  padding: 9.5rem 0;
+  background-image: url('../img/promo-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  text-align: center;
+ opacity: 1; 
+  } 
+
+  @media (min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .promo {
+      background: url('../img/promo-bg.jpg') no-repeat;
+    }
+  }
+
+.promo__title {
+  margin-bottom: 1.4375rem;
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-size: 2.25rem;
+  font-weight: normal;
+  color: #fff;
+}
+
+.promo__text {
+  margin: auto;
+  margin-bottom: 4.25rem;
+  text-transform: none;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 2.25rem;
+  color: #cbc6c0;
+}
+
+.promo__btn {
+  padding: 1.4375rem 2.8125rem;
+  background-color: #E74B3B;
+  border-radius: 4px;
+  font-family: OpenSans, Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+ }
